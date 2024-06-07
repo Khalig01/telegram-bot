@@ -25,6 +25,7 @@ import java.util.regex.Pattern;
 public class TelegramBotUpdatesListener implements UpdatesListener {
 
     private static final Logger logger = LoggerFactory.getLogger(TelegramBotUpdatesListener.class);
+
     private static final String WELCOME_MESSAGE = "Привет!" +
             " Введи по порядку время и название задачи в формате: 01.01.2022 20:00 Сделать домашнюю работу";
     private static final Pattern PATTERN = Pattern.compile("([0-9\\.\\:\\s]{16})(\\s)([\\W+]+)");

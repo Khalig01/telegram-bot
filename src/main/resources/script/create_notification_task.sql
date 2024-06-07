@@ -1,6 +1,6 @@
 -- liquibase formatted sql
 
--- changeset khal:1
+-- changeset Khalig:1
 
 CREATE TABLE notification_task (
 id BIGSERIAL primary key,
