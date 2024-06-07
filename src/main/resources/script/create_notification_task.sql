@@ -6,5 +6,5 @@ CREATE TABLE notification_task (
 id BIGSERIAL primary key,
 chat_id BIGINT,
 task_text VARCHAR,
-task_date TIMESTAMP
+task_сlock TIMESTAMP
 )
